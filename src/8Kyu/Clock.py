@@ -1,4 +1,4 @@
-# Objetivo: Conversão para milissegundos
+# Objetivo: Conversão de tempo para milissegundos
 def past(h, m, s): 
     
     return (h * 3600 + m * 60 + s) * 1000
