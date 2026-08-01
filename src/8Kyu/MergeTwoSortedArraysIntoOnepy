@@ -1,0 +1,11 @@
+def merge_arrays(arr1, arr2):
+    arr_inteira = arr1 + arr2
+    arr_ord = sorted(arr_inteira)
+
+    resultado = []
+
+    for i in arr_ord:
+        if i not in resultado:
+            resultado.append(i)
+
+    return resultado
